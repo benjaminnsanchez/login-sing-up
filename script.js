@@ -1,7 +1,7 @@
 const logIn = document.querySelector(".logIn")
 const logOut = document.querySelector(".logOut")
 const button = document.querySelector(".button")
-let container_usuarios = JSON.parse(localStorage.getItem("list")) || [];
+let container_usuarios = JSON.parse(localStorage.getItem("list"));
 const form1 = document.querySelector(".form1")
 const div = document.querySelector(".div")
 const title = document.querySelector(".title")
