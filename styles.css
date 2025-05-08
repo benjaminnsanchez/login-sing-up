@@ -38,13 +38,17 @@ button:hover{
 }
 input{
     margin-bottom: 2%;
-    color: black;
+     color: greenyellow;
+    background-color: black;
+    font-family: "Press Start 2P";
 }
 input::placeholder{
-
+font-family: "Press Start 2P";
+font-size: 70%;
      color: greenyellow;
      background-color: black;
      text-align: center;
-     border: solid 1px white;
+     padding: 0;
+     
     
 }
